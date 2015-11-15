@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="gb2312">
+    <title>自动回复设置</title>
+    <style>
+        body {
+            overflow: hidden;
+            margin: 0px;
+            padding: 0px;
+            background-color: #DED7D7;
+            border: solid 1px #CCCCCC;
+        }
+        input{
+            padding: 5px;
+        }
+    </style>
+    <script src="popup.js"></script>
+    </head>
+    <body>
+        <table style="width: 300px;height: 100px;">
+            <tr>
+                <td> 回复内容：</td>
+                <td>
+                  <input id="content" name="content" type="text" value="顶">
+                </td>
+            </tr>
+            <tr>
+                <td>回复间隔（分钟）：</td>
+                <td>
+                  <input id="time" name="time" type="number" value="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <input id="submit" type="submit" value="确定">
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
